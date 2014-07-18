@@ -4,7 +4,7 @@ StaticMatrix
 There is no convenient way to create a generic 2D array in the C++ standard library.  Though there are many ways to do so, this implementation has the best features of each going for it:
 
 * Dynamically resizable
-* All elements sit in the same array line (for a considerable CPU cache performance boost)
+* All elements sit in the same array line (single vector implementation for a considerable CPU cache performance boost)
 * Generic template, meaning any type can be held
 * Friend helper class to emulate overloading the non-existent operator [][]
 
