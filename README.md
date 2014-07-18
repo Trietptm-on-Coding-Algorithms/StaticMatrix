@@ -1,7 +1,7 @@
 StaticMatrix
 ============
 
-There are many ways of creating a generic 2D array container in C++, but none conveniently from the standard library.  This implementation has a number of features going for it:
+There is no convenient way to create a generic 2D array in the C++ standard library.  Though there are many ways to do so, this implementation has the best features of each going for it:
 
 * Dynamically resizable
 * All elements sit in the same array line (for a considerable CPU cache performance boost)
