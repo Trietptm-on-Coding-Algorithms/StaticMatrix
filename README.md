@@ -18,12 +18,12 @@ Here is an example driver:
 
 int main()
 {
-    Zero::StaticMatrix<double> mat(10, 10);
-    mat[0][0] = 1.5f;
-    mat[9][9] = 1.4f;
+    Zero::StaticMatrix<double> matrix(10, 10);
+    matrix[0][0] = 1.5f;
+    matrix[9][9] = 1.4f;
 
-    std::cout << mat[0][0] << std::endl;
-    std::cout << mat[9][9] << std::endl;
+    std::cout << matrix[0][0] << std::endl;
+    std::cout << matrix[9][9] << std::endl;
 
     return 0;
 }
