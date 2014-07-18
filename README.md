@@ -18,13 +18,17 @@ Here is an example driver:
 
 int main()
 {
-    Zero::StaticMatrix<double> matrix(10, 10);
+    Zero::StaticMatrix<double> matrix(4, 4);
     matrix[0][0] = 1.5f;
-    matrix[9][9] = 1.4f;
+    matrix[3][3] = 1.4f;
 
     std::cout << matrix[0][0] << std::endl;
-    std::cout << matrix[9][9] << std::endl;
+    std::cout << matrix[3][3] << std::endl;
+
+    for (auto &element : matrix)
+        std::cout << element << std::endl;
 
     return 0;
 }
+
 ```
