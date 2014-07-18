@@ -8,7 +8,7 @@ There is no convenient way to create a generic 2D array in the C++ standard libr
 * Generic template, meaning any type can be held
 * Friend helper class to emulate overloading the non-existent operator [][]
 
-This class is very easy to work with, and shares many implementation methods with std::vector.
+This container class is very easy to work with, and shares many implementation methods with std::vector to resize, clear, push and erase data.
 
 Here is an example driver:
 
