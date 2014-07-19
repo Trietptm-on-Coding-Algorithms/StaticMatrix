@@ -42,8 +42,8 @@ namespace Zero
         inline size_t max_size() const { return this->_internal.max_size(); }
         inline size_t capacity() const { return this->_internal.capacity(); }
 
-        inline typename std::vector<T>::iterator begin() const { return this->_internal.begin(); }
-        inline typename std::vector<T>::iterator end() const { return this->_internal.end(); }
+        inline typename std::vector<T>::const_iterator begin() const { return this->_internal.begin(); }
+        inline typename std::vector<T>::const_iterator end() const { return this->_internal.end(); }
         inline typename std::vector<T>::iterator erase(typename std::vector<T>::iterator position) { return this->_internal.erase(position); }
         inline typename std::vector<T>::iterator erase(typename std::vector<T>::iterator first, typename std::vector<T>::iterator last) { return this->_internal.erase(first, last); }
 
