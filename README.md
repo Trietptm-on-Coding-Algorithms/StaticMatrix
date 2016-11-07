@@ -14,7 +14,7 @@ Here is an example driver:
 
 ```cpp
 #include <iostream>
-#include "staticmatrix.h"
+#include <staticmatrix.h>
 
 int main()
 {
